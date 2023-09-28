@@ -45,8 +45,8 @@ header {
 }
 
 header h1 {
-    color: var(--primary);
-    background-color: var(--dark);
+    color: var(--dark);
+    background-color: var(--primary);
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
@@ -178,7 +178,7 @@ main {
 }
 
 .flex-item:hover {
-    background-color: navy;
+    background-color: var(--tertiary);
 }
 
 .flex-item div {
@@ -211,7 +211,7 @@ main {
 
 .contact address a:hover {
     background-size: 100% 88%;
-    color: var(--secondary);
+    color: var(--tertiary);
 }
 
 .run-buddy {
